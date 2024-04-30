@@ -1,5 +1,5 @@
 Pakistan Green - #04471C
-Sea Green - #058C42
-White - #FFFFFF
-Cerulean - #40798C
-Umber - #766153
+Ash Grey - #ACBFA4
+Beige - #E2E8CE
+Orange - #FF7F11
+Red - #FF1B1C
