@@ -1,0 +1,44 @@
+:root {
+    --verdeProjeto: #04471C;
+    --verdeProjetoClaro: #055a23;
+    --Ash: #ACBFA4;
+    --Beige: #E2E8CE;
+    --Orange: #FF7F11;
+    --Red: #FF1B1C;
+
+}
+
+body {
+    background: linear-gradient(to bottom right, var(--verdeProjeto), var(--verdeProjeto), var(--verdeProjetoClaro), var(--verdeProjetoClaro));
+    height: 100vh;
+}
+
+strong {
+    text-transform: uppercase;
+}
+
+header {
+    background-color: #04471C;
+}
+
+#loginRegisterButton {
+    background-color: #40798C;
+    border: 0px;
+    border-radius: 15px;
+    margin-right: 10rem;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    width: 9rem;
+    height: 2.5rem;
+}
+
+#loginRegisterButton:hover {
+    background-color: #408da7;
+}
+
+.caixasInput {
+    margin-bottom: 3rem;
+    
+}
