@@ -8,24 +8,14 @@
 
 }
 
-body {
-    background: linear-gradient(to bottom right, var(--verdeProjeto), var(--verdeProjeto), var(--verdeProjetoClaro), var(--verdeProjetoClaro));
-    height: 100vh;
-}
-
 strong {
     text-transform: uppercase;
-}
-
-header {
-    background-color: #04471C;
 }
 
 #loginRegisterButton {
     background-color: #40798C;
     border: 0px;
     border-radius: 15px;
-    margin-right: 10rem;
     padding: 7px;
     padding-left: 20px;
     padding-right: 20px;
@@ -38,7 +28,20 @@ header {
     background-color: #408da7;
 }
 
-.caixasInput {
-    margin-bottom: 3rem;
-    
+#campoLinhas {
+    background-image: url(../images/svg/campoLinhas.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#bolaFogo {
+    background-image: url(../images/svg/bolaFogo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#jogadores {
+    background-image: url(../images/svg/jogadores.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
