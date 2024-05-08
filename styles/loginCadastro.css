@@ -8,10 +8,6 @@
 
 }
 
-strong {
-    text-transform: uppercase;
-}
-
 #loginRegisterButton {
     background-color: #40798C;
     border: 0px;
@@ -26,22 +22,4 @@ strong {
 
 #loginRegisterButton:hover {
     background-color: #408da7;
-}
-
-#campoLinhas {
-    background-image: url(../images/svg/campoLinhas.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#bolaFogo {
-    background-image: url(../images/svg/bolaFogo.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#jogadores {
-    background-image: url(../images/svg/jogadores.svg);
-    background-repeat: no-repeat;
-    background-position: center;
 }

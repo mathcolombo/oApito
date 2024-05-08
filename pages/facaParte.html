@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Faça Parte │ O Apito</title>
   <link rel="stylesheet" href="../styles/menuBar.css">
+  <link rel="stylesheet" href="../styles/backgroundImages.css">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body style="height: 100vh; margin-top:50px;">
+<body style="background: linear-gradient(to bottom,  #04471b, #04471bfd, #33694b, #33694b); height: 100vh; margin-top:50px;">
   <header class="row position-fixed justify-content-between p-2" style="background-color: #04471C; height: 50px; top: 0; left: 0; right: 0;">
     <nav id="mySidebar" class="sidebar ps-0 pe-0" style="width: 0;">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -37,9 +38,40 @@
           style="height: 2.2rem;"></a>
     </div>
   </header>
-  <main>
+  <section id="principal" class="row">
+    <div id="plano1" class="col-8 col-md-6 col-lg-4 col-xl-3 align-itens-end ms-5 mt-5 p-4 pb-0 rounded-3">
 
-  </main>
+      <div id="painelPremium" class="border border-success rounded-4" style="background-color: rgba(255, 255, 255, 0.253); height: 65vh; color: white">
+
+        <div id="valorReal" class="row m-0" style="font-size: 70px;">
+          <p class="col text-end p-0" >R$</p>
+          <p class="col d-flex align-self-end text-center p-0">00,00</p>
+          <p class="col d-flex align-self-end text-start p-1 pb-3 fs-3">/mês</p>
+        </div>
+        <div>
+          <ul>
+            <li>Beneficio</li>
+            <li>Beneficio</li>
+            <li>Beneficio</li>
+            <li>Beneficio</li>
+            <li>Beneficio</li>
+            <li>Beneficio</li>
+          </ul>
+        </div>
+        <div class="row d-flex align-self-end text-center">
+          <h3>Membro Premium</h3>
+        </div>
+
+      </div>
+
+    </div>
+    <div id="campoLinhas" class="col text-center">
+
+    </div>
+    <div id="plano2" class="col">
+
+    </div>
+  </section>
 
   <!-- Bootstrap script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
