@@ -1,95 +1,114 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suporte │ O Apito</title>
-    <link rel="stylesheet" href="../styles/menuBar.css">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-
-<body style="height: 100vh; margin-top:50px;">
-    <div class="container-fluid">
-        <header class="row position-fixed justify-content-between p-2" style="background-color: #04471C; height: 50px; top: 0; left: 0; right: 0;">
-            <nav id="mySidebar" class="sidebar ps-0 pe-0" style="width: 0;">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="home.html">Início</a>
-                <a href="arbitros.html">Árbitros</a>
-                <a href="meusJogos.html">Meus Jogos</a>
-                <a href="facaParte.html">Faça Parte</a>
-                <a href="suporte.html">Suporte</a>
-            </nav>
-            <div id="menu" class="col text-start m-0 p-0">
-                <div id="menuHamburguer" class="container" onclick="openNav()">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Heroic Features - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/suporte.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-lg-5">
+                <a class="navbar-brand" href="#!">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-            <div id="logoApito" class="col text-center">
-                <a href="home.html"><img src="../images/svg/logoApito.svg" alt="Logo, imagem de apito" style="height: 2.5rem;"></a>
-            </div>
-            <div id="userIcon" class="col text-end">
-                <a href="perfilUser.html"><img src="../images/svg/icons/userIcon.svg" alt="Imagem de usuário " style="height: 2.2rem;"></a>
+        </nav>
+        <!-- Header-->
+        <header class="py-5">
+            <div class="container px-lg-5">
+                <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+                    <div class="m-4 m-lg-5">
+                        <h1 class="display-5 fw-bold">A warm welcome!</h1>
+                        <p class="fs-4">Bootstrap utility classes are used to create this jumbotron since the old component has been removed from the framework. Why create custom CSS when you can use utilities?</p>
+                        <a class="btn btn-primary btn-lg" href="#!">Call to action</a>
+                    </div>
+                </div>
             </div>
         </header>
-        <main class="container-fluid justify-content-center text-center" >
-            <section id="" class="row justify-content-center">
-                <p class="text-start">Suporte</p>
-                <hr class="my-4 mb-5" style="width: 93vw;">
-            </section>
-            <section id="cards" class="row row-gap-3 p-3" style="height: 40vh;">
-                <div id="atendSugeAtt" class="row justify-content-center gap-5" style="height: 20vh;">
-                    <a href="" id="atendimentos" class="col-3 rounded-4 p-3 text-decoration-none text-secondary-emphasis" style="background-color: #058c4244;">                    
-                        <img src="../images/svg/icons/atendimentoIcon.svg" alt="">
-                        <h4>Atendimentos</h4>
-                        <p>Envie dúvidas, sugestões e outros</p>
-                    </a>
-                    <a href="" id="sugestoes" class="col-3 rounded-4 p-3 text-decoration-none text-secondary-emphasis" style="background-color: #058c4244;">
-                        <img src="../images/svg/icons/sugestaoIcon.svg" alt="">
-                        <h4>Sugestões</h4>
-                        <p>Vote nas sugestões de melhorias e novos recursos</p>
-                    </a>
-                    <a href="" id="atualizacoes" class="col-3 rounded-4 p-3 text-decoration-none text-secondary-emphasis" style="background-color: #058c4244;">
-                        <img src="../images/svg/icons/atualizacaoIcon.svg" alt="">
-                        <h4>Atualizações</h4>
-                        <p>Acompanhe as novidades, atualizações	e correções</p>
-                    </a>
+        <!-- Page Content-->
+        <section class="pt-4">
+            <div class="container px-lg-5">
+                <!-- Page Features-->
+                <div class="row gx-lg-5">
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
+                                <h2 class="fs-4 fw-bold">Fresh new layout</h2>
+                                <p class="mb-0">With Bootstrap 5, we've created a fresh new layout for this template!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-cloud-download"></i></div>
+                                <h2 class="fs-4 fw-bold">Free to download</h2>
+                                <p class="mb-0">As always, Start Bootstrap has a powerful collectin of free templates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
+                                <h2 class="fs-4 fw-bold">Jumbotron hero header</h2>
+                                <p class="mb-0">The heroic part of this template is the jumbotron hero header!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bootstrap"></i></div>
+                                <h2 class="fs-4 fw-bold">Feature boxes</h2>
+                                <p class="mb-0">We've created some custom feature boxes using Bootstrap icons!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-code"></i></div>
+                                <h2 class="fs-4 fw-bold">Simple clean code</h2>
+                                <p class="mb-0">We keep our dependencies up to date and squash bugs as they come!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-4 mb-5">
+                        <div class="card bg-light border-0 h-100">
+                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-patch-check"></i></div>
+                                <h2 class="fs-4 fw-bold">A name you trust</h2>
+                                <p class="mb-0">Start Bootstrap has been the leader in free Bootstrap templates since 2013!</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="ajudaAvalie" class="row justify-content-center gap-5" style="height: 12vh;">
-                    <a href="" id="centralAjuda" class="col-3 rounded-4 p-3 text-decoration-none text-secondary-emphasis" style="background-color: #058c4244;">
-                        <img src="../images/svg/icons/ajudaIcon.svg" alt="">
-                        <h4>Central de ajuda</h4>
-                        <p>Confira artigos com telas e exemplos</p>
-                    </a>
-                    <a href="" id="avalie" class="col-3 rounded-4 p-3 text-decoration-none text-secondary-emphasis" style="background-color: #058c4244;">
-                        <img src="../images/svg/icons/feedbackIcon.svg" alt="">
-                        <h4>Avalie aqui</h4>
-                        <p>A sua opinião é muito importante</p>
-                    </a>
-                </div>
-            </section>
-        </main>
-        <section id="comment" class="row text-start justify-content-between">
-            <div class="col">
-                <img src="../images/svg/icons/mensagemIcon.svg" alt="" class="col" style="height: 5rem; width: 5rem;">
-                <div class="col">
-                    <p>Deixe seu comentário</p>
-                    <p>Poderá ser exibido em nosso site e trará confiança a outras pessoas</p>
-                </div>
-            </div>
-            <div class="col">
-                <button>Escrever</button>
             </div>
         </section>
-        
-           <!-- Bootstrap script -->
-           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-           <script src="../scripts/menuBar.js"></script>
-    </div>
-</body>
-
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="../js/suporte.js"></script>
+    </body>
 </html>
