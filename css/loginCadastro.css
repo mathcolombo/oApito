@@ -8,6 +8,11 @@
 
 }
 
+body {
+    background: linear-gradient(to bottom right, var(--verdeProjeto), var(--verdeProjeto), var(--verdeProjetoClaro), var(--verdeProjetoClaro));
+    height: 100vh;
+}
+
 /* Configuração do botão de login/registro*/
 #loginRegisterButton {
     background-color: #40798C;
