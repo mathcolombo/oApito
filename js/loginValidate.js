@@ -4,6 +4,10 @@ const users = [
         password: 'Admin123'
     },
     {
+        login: 'visitante',
+        password: '123'
+    },
+    {
         login: 'matheus',
         password: 'Matheus123'
     },
